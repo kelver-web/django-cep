@@ -40,6 +40,7 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     install_requires=[
-        "Django >= 1.2.0"
+        "Django >= 1.2.0",
+        "pycorreios"
     ],
 )
