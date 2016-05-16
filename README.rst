@@ -1,8 +1,11 @@
+|PyPi|_
+
+.. |PyPi| image:: https://badge.fury.io/py/django-cep.svg
+.. _PyPi: https://badge.fury.io/py/django-cep
+
+
 django-cep
 ===============
-
-.. image:: https://pypip.in/v/django-cep/badge.png
-        :target: https://pypi.python.org/pypi/django-cep
 
 This application enables Django_ powered websites to have autofilled address fields in forms based on brazilian CEP field.
 
