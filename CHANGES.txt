@@ -1,5 +1,10 @@
 Change-log for django-cep.
 
+Version 1.1.0 (2016/16/05)
+==========================
+
+Fix in the broken webservice by adding pycorreios, thanks to @aleprovencio.
+
 Version 1.0.8 (2013/28/05)
 ==========================
 
