@@ -10,10 +10,8 @@ except ImportError:
     from distutils.core import setup, find_packages
 
 
-def read(*parts):
-    filename = os.path.join(os.path.dirname(__file__), *parts)
-    with codecs.open(filename, encoding='utf-8') as fp:
-        return fp.read()
+with open('README.rst', 'rb') as readme:
+    readme_text = readme.read().decode('utf-8')
 
 setup(
     name='django-cep',
@@ -22,11 +20,12 @@ setup(
     maintainer_email='thiagocavila@gmail.com',
     packages=find_packages(),
     include_package_data=True,
+    zip_safe=False,
     scripts=[],
     url='https://github.com/staticdev/django-cep',
     license='LICENSE',
     description='Address fields autofill app for forms using brazilian CEP field.',
-    long_description=read('README.rst'),
+    long_description=readme_text,
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Django",
