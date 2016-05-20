@@ -1,5 +1,10 @@
 Change-log for django-cep.
 
+Version 1.1.2 (2016/20/05)
+==========================
+
+Fixed issue #8: removing dependency for pycorreios by merging pull-request #10. Thanks again to @aleprovencio.
+
 Version 1.1.1 (2016/19/05)
 ==========================
 
@@ -8,7 +13,7 @@ Added Travis-CI integration for testing.
 Version 1.1.0 (2016/16/05)
 ==========================
 
-Fix in the broken webservice by adding pycorreios, thanks to @aleprovencio.
+Fixed issue #6: in the broken webservice by adding pycorreios  by merging pull-request #5. Thanks to @aleprovencio.
 
 Version 1.0.8 (2013/28/05)
 ==========================
