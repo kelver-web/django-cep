@@ -41,6 +41,5 @@ setup(
     ],
     install_requires=[
         "Django >= 1.2.0",
-        "pycorreios"
     ],
 )
